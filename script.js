@@ -8,6 +8,12 @@ for (let i=0;i<uzvaretajuSkaits;i++){
 let rand=Math.random()*vardi.length
 rand= Math.floor(rand);
 let uzvaretajs=vardi[rand];
+rindas.innerHTMLHTML+=`
+<tr>
+<td>${i+1}</td>
+<td>${uzvaretajs}</td>
+</tr>`
+
 console.log(vardi[rand]);
 }
-rindas.innerHTML+=`//pievieno +, lai pieskaitītu nākamo
+
